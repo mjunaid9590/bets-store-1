@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef4d9911.css",
+    "main.js": "/static/js/main.a25ad8df.js",
+    "static/js/787.a5c25428.chunk.js": "/static/js/787.a5c25428.chunk.js",
+    "static/media/main-app-bg.jpg": "/static/media/main-app-bg.d458839a4f54fc8269a3.jpg",
+    "static/media/game.png": "/static/media/game.ff69e95cd1201fdd0c01.png",
+    "static/media/kv-evo.png": "/static/media/kv-evo.252a5ba1efc5bc2ec5fc.png",
+    "static/media/kv-casino.png": "/static/media/kv-casino.7b717fa82fcb90a8ed48.png",
+    "static/media/bg-login.jpg": "/static/media/bg-login.2c7f0c6d6f00ad1ad9e6.jpg",
+    "static/media/sport-all.jpg": "/static/media/sport-all.31d8a2c5c9793a05f1cb.jpg",
+    "static/media/logo.png": "/static/media/logo.1b513a439d6707ebf5ea.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.29dd41c9009c90f690c6.png",
+    "static/media/telegram.png": "/static/media/telegram.6d4fb402a1836d62584b.png",
+    "static/media/tg.png": "/static/media/tg.c5b2f42c92cf9c6e12ad.png",
+    "static/media/logo-cropped.png": "/static/media/logo-cropped.3ac0b4f53205fe2072ee.png",
+    "static/media/facebook.png": "/static/media/facebook.8d51a55626e9bf107f8f.png",
+    "static/media/hover-popular.svg": "/static/media/hover-popular.b875da70755031a2178a38b5e7fedae2.svg",
+    "static/media/hover-table.svg": "/static/media/hover-table.7c63facc4a1826d0d2536ccd928a6a58.svg",
+    "static/media/popular.svg": "/static/media/popular.7359779e9a44c8f683794fa11a98f7af.svg",
+    "static/media/table.svg": "/static/media/table.0b55526eba3469ab8e26369adb5b009d.svg",
+    "static/media/hover-fishing.svg": "/static/media/hover-fishing.004b79951cd113769d39e5dd66ad72d1.svg",
+    "static/media/hover-egame.svg": "/static/media/hover-egame.f76526de317f5055425ebe7a7966e3ee.svg",
+    "static/media/hover-slot.svg": "/static/media/hover-slot.0771bab3000dc7adb98587317cd0b2e6.svg",
+    "static/media/hover-live.svg": "/static/media/hover-live.79bf9677f0f98c7f3d9f044299cc34f6.svg",
+    "static/media/fishing.svg": "/static/media/fishing.47c2fd68227e8603b756c43e4d8be828.svg",
+    "static/media/slot.svg": "/static/media/slot.78675753a5c947c6896a56003e082430.svg",
+    "static/media/live.svg": "/static/media/live.14ae7c2fc86983de386db2675e11ec2d.svg",
+    "static/media/egame.svg": "/static/media/egame.0457061843c36f132fbbe20631a93280.svg",
+    "index.html": "/index.html",
+    "main.ef4d9911.css.map": "/static/css/main.ef4d9911.css.map",
+    "main.a25ad8df.js.map": "/static/js/main.a25ad8df.js.map",
+    "787.a5c25428.chunk.js.map": "/static/js/787.a5c25428.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef4d9911.css",
+    "static/js/main.a25ad8df.js"
+  ]
+}
