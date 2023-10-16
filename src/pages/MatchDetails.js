@@ -10,20 +10,21 @@ import { useParams } from 'react-router-dom';
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, push, get,onValue, set  } from 'firebase/database';
 import { getFirestore } from 'firebase/firestore';
+import {app} from '../firebaseConfig'
 import axios from 'axios';
 
 // Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyBeLH9TPYJon1BSIabHGioe2rKZUDP0um0",    
-  authDomain: "new-bet-data.firebaseapp.com",
-  projectId: "new-bet-data",
-  storageBucket: "new-bet-data.appspot.com",
-  messagingSenderId: "902137266763",
-  appId: "1:902137266763:web:665421a884c8b272c343ce",
-  measurementId: "G-MZH6HXSFK9"
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBeLH9TPYJon1BSIabHGioe2rKZUDP0um0",    
+//   authDomain: "new-bet-data.firebaseapp.com",
+//   projectId: "new-bet-data",
+//   storageBucket: "new-bet-data.appspot.com",
+//   messagingSenderId: "902137266763",
+//   appId: "1:902137266763:web:665421a884c8b272c343ce",
+//   measurementId: "G-MZH6HXSFK9"
+// };
 
-const app = initializeApp(firebaseConfig);
+// const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
 

@@ -57,8 +57,6 @@ app.get('/api/v1/fetch_data', async (req, res) => {
     if (MarketID) {
       url += `&MarketID=${MarketID}`;
     }
-    console.log("Fetch Data API Endpoint")
-    console.log(url)
     const response = await axios.get(url);
     res.json(response.data);
   } catch (error) {
@@ -129,85 +127,6 @@ app.get('/api/matches/score/:match_id', async (req, res) => {
 });
 
 
-// 1. Sport URL
-// app.get('/api/sport', async (req, res) => {
-//   try {
-//     // Fetch data from a third-party API (e.g., JSONPlaceholder)
-//     const response = await axios.get('http://142.93.36.1/api/v1/fetch_data?Action=listEventTypes');
-
-//     // Extract the relevant data
-//     const data = response.data;
-
-//     // Combine your sample data with third-party data
-//     // const combinedData = [...items, ...thirdPartyData];
-
-//     res.json(data);
-//   } catch (error) {
-//     res.status(500).json({ error: 'Failed to fetch data from the third-party API, e' });
-//   }
-// });
-
-
-
-// app.get('/api/items', async (req, res) => {
-//   try {
-//     // Fetch data from a third-party API (e.g., JSONPlaceholder)
-//     const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
-
-//     // Extract the relevant data
-//     const thirdPartyData = response.data;
-
-//     // Combine your sample data with third-party data
-//     const combinedData = [...items, ...thirdPartyData];
-
-//     res.json(combinedData);
-//   } catch (error) {
-//     res.status(500).json({ error: 'Failed to fetch data from the third-party API, f' });
-//   }
-// });
-// // 2. Fetch series as per sport
-// app.get('/api/series', async (req, res) => {
-//     try {
-//       // Fetch data from a third-party API (e.g., JSONPlaceholder)
-//       const response = await axios.get('http://142.93.36.1/api/v1/fetch_data?Action=listEventTypes');
-
-//       // Extract the relevant data
-//       const data = response.data;
-
-//       // Combine your sample data with third-party data
-//       // const combinedData = [...items, ...thirdPartyData];
-
-//       res.json(data);
-//     } catch (error) {
-//       res.status(500).json({ error: 'Failed to fetch data from the third-party API' });
-//     }
-//   });
-
-
-// // http://167.99.198.2
-// app.get('/api/sport', async (req, res) => {
-//     try {
-//       // Fetch data from a third-party API (e.g., JSONPlaceholder)
-//       const response = await axios.get('http://167.99.198.2/api/******');
-
-//       // Extract the relevant data
-//       const data = response.data;
-
-//       // Combine your sample data with third-party data
-//       // const combinedData = [...items, ...thirdPartyData];
-
-//       res.json(data);
-//     } catch (error) {
-//       res.status(500).json({ error: 'Failed to fetch data from the third-party API' });
-//     }
-//   });
-
-// Add an item
-// app.post('/api/items', (req, res) => {
-//   const newItem = req.body;
-//   items.push(newItem);
-//   res.status(201).json(newItem);
-// });
 
 // Start the server
 app.listen(port, () => {
